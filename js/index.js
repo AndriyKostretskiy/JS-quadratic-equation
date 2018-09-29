@@ -1,4 +1,4 @@
-const quadraticСoefficient = parseFloat(prompt('Enter uadratic coefficient A'));
+const quadraticСoefficient = parseFloat(prompt('Enter quadratic coefficient A'));
 const linearСoefficient = parseFloat(prompt('Enter linear coefficient B'));
 const freeConsnant = parseFloat(prompt('Enter free consnant C'));
 
