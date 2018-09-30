@@ -1,6 +1,8 @@
-const quadraticСoefficient = parseFloat(prompt('Enter quadratic coefficient A'));
-const linearСoefficient = parseFloat(prompt('Enter linear coefficient B'));
-const freeConsnant = parseFloat(prompt('Enter free consnant C'));
+const quadraticСoefficient = parseFloat(prompt('Enter quadratic coefficient A > 0'));
+const linearСoefficient = parseFloat(prompt('Enter linear coefficient B > 0'));
+const freeConsnant = parseFloat(prompt('Enter free consnant C > 0'));
+const solution = solveQuadraticEquation(quadraticСoefficient, linearСoefficient, freeConsnant);
+alert(solution);
 
 function solveQuadraticEquation(quadraticСoefficient, linearСoefficient, freeConsnant) {
     const descriminant = calcDiscriminant(quadraticСoefficient,linearСoefficient,freeConsnant);
@@ -21,5 +23,3 @@ function calcDiscriminant(quadraticСoefficient, linearСoefficient, freeConsnan
     return descriminant;
 }
 
-const solution = solveQuadraticEquation(quadraticСoefficient, linearСoefficient, freeConsnant);
-alert(solution);
