@@ -11,7 +11,7 @@ function solveQuadraticEquation(quadraticСoefficient, linearСoefficient, freeC
         const root2 = (-linearСoefficient - Math.sqrt(descriminant))/2*quadraticСoefficient;
         return 'Root1 = ' + root1 + '  Root2 = ' + root2;
     } else if(descriminant === 0) {
-        const root = -linearСoefficient/2*quadraticСoefficient;
+        const root = -linearСoefficient/(2*quadraticСoefficient);
         return 'Root = ' + root;
     } else {
         return 'No solutions';
