@@ -13,7 +13,8 @@ function solveQuadraticEquation(quadraticСoefficient, linearСoefficient, freeC
     } else if(descriminant === 0) {
         const root = -linearСoefficient/(2*quadraticСoefficient);
         return 'Root = ' + root;
-    }  return 'No solutions';
+    }  
+    return 'No solutions';
 }
 
 function calcDiscriminant(quadraticСoefficient, linearСoefficient, freeConstant) {
